@@ -7,7 +7,7 @@ variables:
   sqlsrv_db: 'sqlsrv_testdb'
   pdo_sqlsrv_db: 'pdo_sqlsrv_testdb'
   uid: 'sa'
-  pwd: 'Password456!'
+  pwd: 'Password456#'
 
 trigger:
 - dev
@@ -346,3 +346,4 @@ jobs:
       docker rm sqlcontainer
     displayName: 'Stop SQL Server for Windows Server'
     condition: false
+ 
